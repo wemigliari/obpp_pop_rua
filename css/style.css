@@ -357,6 +357,12 @@ header .navbar-brand img {
 
 form{font-size: 13px;}
 
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
 /*
  * Banner
  */
@@ -775,7 +781,6 @@ footer .copy-right {
 /*
  * Mobile phones
  */
- .mobile-container {display: none;}
 
  @media (max-width: 280px){
 
@@ -788,10 +793,7 @@ footer .copy-right {
    }
 
    .mobile-container {
-     display:block;
-     margin: 0px 0px 0px 0px;
-     padding-left: 0px;
-     padding-right: 0px;
+     display:inline-block;
    }
 
    .topnav a.icon {
@@ -860,7 +862,7 @@ footer .copy-right {
   }
 
   .mobile-container {
-    display:block;
+    display:inline-block;
     margin: 0px 0px 0px 0px;
     padding-left: 0px;
     padding-right: 0px;
@@ -881,7 +883,7 @@ footer .copy-right {
    width: 100%;
    margin-left: 0px;
    position: relative;
-  
+
   }
 
   .sobre p {
@@ -1006,6 +1008,7 @@ footer .copy-right {
 
 @media (min-width: 1920px){
 
+  .mobile-container {display: none;}
 
 	.contact .contact-container .address {
 		max-width: 100%;
