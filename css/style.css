@@ -789,7 +789,7 @@ footer .copy-right {
     line-height: 23px;}
  }
 
-@media (max-width: 600px){
+@media (max-width: 768px){
 
 
   header .navbar-nav>li>a {
@@ -883,7 +883,7 @@ footer .copy-right {
  * Tablets
  */
 
- @media (min-width: 720px) {
+ @media (min-width: 769px) {
 
    .mobile-container {
      display:none;
