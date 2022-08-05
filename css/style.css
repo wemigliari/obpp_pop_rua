@@ -355,6 +355,7 @@ header .navbar-brand img {
 	max-width: 250px;
 }
 
+form{font-size: 12px;}
 
 /*
  * Banner
@@ -786,6 +787,13 @@ footer .copy-right {
      font-size: 18px;
    }
 
+   .mobile-container {
+     display:block;
+     margin: 0px 0px 0px 0px;
+     padding-left: 0px;
+     padding-right: 0px;
+   }
+   
    .topnav a.icon {
      margin-top: -1px;
    }
@@ -857,6 +865,7 @@ footer .copy-right {
     padding-left: 0px;
     padding-right: 0px;
   }
+
   .mobile-container {
     font-size: 7px;
   }
