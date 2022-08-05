@@ -355,7 +355,7 @@ header .navbar-brand img {
 	max-width: 250px;
 }
 
-form{font-size: 12px;}
+form{font-size: 13px;}
 
 /*
  * Banner
@@ -793,7 +793,7 @@ footer .copy-right {
      padding-left: 0px;
      padding-right: 0px;
    }
-   
+
    .topnav a.icon {
      margin-top: -1px;
    }
@@ -802,7 +802,7 @@ footer .copy-right {
     width: 100%;
     margin-left: 0px;
     position: relative;
-    overflow: hidden;
+
    }
 
    footer .container {
@@ -881,7 +881,7 @@ footer .copy-right {
    width: 100%;
    margin-left: 0px;
    position: relative;
-   overflow: hidden;
+  
   }
 
   .sobre p {
