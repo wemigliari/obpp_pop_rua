@@ -977,6 +977,15 @@ footer .copy-right {
      min-width: 100%;
      min-height: 740px;
    }
+
+   nav ul li {
+        position: relative;
+    }
+
+   nav ul ul {
+        position: absolute;
+        width: 100%;
+    }
  }
 
 @media (min-width: 1920px){
@@ -996,6 +1005,14 @@ footer .copy-right {
     display: block;
 }
 
+nav ul li {
+     position: relative;
+ }
+
+nav ul ul {
+     position: absolute;
+     width: 100%;
+ }
 }
 
 /*
