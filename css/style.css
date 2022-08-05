@@ -358,6 +358,10 @@ header .navbar-brand img {
 form{font-size: 13px;}
 
 
+.dropdown {
+  position: absolute;
+  display: block;
+}
 
 /*
  * Banner
