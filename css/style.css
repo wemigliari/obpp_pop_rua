@@ -562,7 +562,20 @@ a.hoverobpp:hover
 	color: #CC5500;
 }
 
+/* Track */
+::-webkit-scrollbar-track {
+  background: #2F4F4F;
+}
 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #2F4F4F;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #2F4F4F;
+}
 
 a, a.twitter-timeline:link, a.twitter-timeline:visited, a.twitter-timeline:active {
   	text-decoration: none;
