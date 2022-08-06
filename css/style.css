@@ -40,6 +40,12 @@ body {
 ol, ul {
   list-style: none;
 }
+
+li {
+  padding-top: 0px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
 blockquote, q {
   quotes: none;
 }
@@ -501,7 +507,6 @@ h1,h2,h4,h5{
 
 h3{
 	font-family: 'Montserrat', sans-serif;
-  marging-top: 20px;
 	font-weight: 600;
   text-decoration: none;
   margin-left: 0px;
@@ -841,14 +846,6 @@ form{font-size: 13px;}
   display: block;
 }
 
-nav ul li {
-     position: relative;
- }
-
-nav ul ul {
-     position: absolute;
-     width: 100%;
- }
 
 
 /*
@@ -1410,14 +1407,6 @@ footer .copy-right {
      min-height: 740px;
    }
 
-   nav ul li {
-        position: relative;
-    }
-
-   nav ul ul {
-        position: absolute;
-        width: 100%;
-    }
  }
 
 @media (min-width: 1920px){
