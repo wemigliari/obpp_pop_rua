@@ -299,7 +299,7 @@ main {
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: #E5E4E2;
+  background-color: #2F4F4F;
   visibility: hidden;
   -webkit-transition: visibility 0s 0.7s;
   -moz-transition: visibility 0s 0.7s;
@@ -549,6 +549,19 @@ a.hoverob:hover
   text-decoration: none;
 	color: #CC5500;
 }
+
+
+a, a.hoverobpp:link, a.hoverobpp:visited, a.hoverobpp:active {
+  	text-decoration: none;
+    color: #E3963E;!important;
+}
+
+a.hoverobpp:hover
+{
+  text-decoration: none;
+	color: #CC5500;
+}
+
 
 
 a, a.twitter-timeline:link, a.twitter-timeline:visited, a.twitter-timeline:active {
@@ -1087,9 +1100,9 @@ box-shadow: 8px 8px 3px white;}
 
 .aaaimg:link {color: transparent;
 text-decoration: none;
-border: 0px 0px bold #E5E4E2;}
+border: 0px 0px bold #2F4F4F;}
 .aaaimg:hover {
-box-shadow: 8px 8px 3px #E5E4E2;}
+box-shadow: 8px 8px 3px #2F4F4F;}
 
 img:hover{
   -o-transition:.5s;
