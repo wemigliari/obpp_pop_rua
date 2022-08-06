@@ -132,8 +132,6 @@ main {
   line-height: 1.6;
 }
 
-b {font-size: 13px;}
-
 .navigation-is-open main {
   -webkit-transform: translateX(100%);
   -moz-transform: translateX(100%);
@@ -911,6 +909,7 @@ form{font-size: 13px;}
 	font-size: 14px;
 	line-height: 26px;
 	letter-spacing: 0.055em;
+  font-weight: 300;
 }
 
 .default-heading h2 a, a:hover {
