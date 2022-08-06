@@ -1078,12 +1078,18 @@ border: 0px 0px bold white;}
 .aimg:hover {
 box-shadow: 8px 8px 3px white;}
 
+
 .aaimg:link {color: transparent;
 text-decoration: none;
 border: 0px 0px bold white;}
 .aaimg:hover {
 box-shadow: 8px 8px 3px white;}
 
+.aaaimg:link {color: transparent;
+text-decoration: none;
+border: 0px 0px bold #E5E4E2;}
+.aaaimg:hover {
+box-shadow: 8px 8px 3px #E5E4E2;}
 
 img:hover{
   -o-transition:.5s;
