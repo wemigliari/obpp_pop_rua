@@ -131,6 +131,9 @@ main {
   margin: 0 auto;
   line-height: 1.6;
 }
+
+b {font-size: 13px;}
+
 .navigation-is-open main {
   -webkit-transform: translateX(100%);
   -moz-transform: translateX(100%);
