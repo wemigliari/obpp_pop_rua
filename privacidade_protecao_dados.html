@@ -1,203 +1,172 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<title>Observatório Brasileiro de Políticas Públicas</title>
-	<!-- Description, Keywords and Author -->
-	<meta name="description" content="Your description">
-	<meta name="keywords" content="Your,Keywords">
-	<meta name="author" content="ResponsiveWebInc">
+	<head>
+		<meta charset="utf-8">
+		<title>Observatório Brasileiro de Políticas Públicas</title>
+		<!-- Description, Keywords and Author -->
+		<meta name="description" content="Your description">
+		<meta name="keywords" content="Your,Keywords">
+		<meta name="author" content="ResponsiveWebInc">
 
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<link rel="icon" href="img/ufmg.png">
-	<link rel="shortcut icon" href="img/ufmg.png" />
+		<link rel="icon" href="img/ufmg.png">
+		<link rel="shortcut icon" href="img/ufmg.png" />
 
-	<!-- Styles -->
-	<!-- Bootstrap CSS -->
+		<!-- Styles -->
+		<!-- Bootstrap CSS -->
 
-		<link href="css/bootstrap.css" rel="stylesheet">
-	<!-- Font awesome CSS -->
-	<link href="css/font-awesome.min.css" rel="stylesheet">
-	<!-- Custom CSS -->
-	<link href="css/style.css" rel="stylesheet">
-	<link href="css/toggle.css" rel="stylesheet">
+			<link href="css/bootstrap.css" rel="stylesheet">
+		<!-- Font awesome CSS -->
+		<link href="css/font-awesome.min.css" rel="stylesheet">
+		<!-- Custom CSS -->
+		<link href="css/style.css" rel="stylesheet">
+		<link href="css/toggle.css" rel="stylesheet">
 
-	<!-- Favicon -->
-	<link rel="shortcut icon" href="#">
+		<!-- Favicon -->
+		<link rel="shortcut icon" href="#">
 
-	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
-	<script src="js/bootstrap.min.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
 
-	<!-- Javascript files -->
-	<!-- jQuery -->
-	<script src="js/jquery.js"></script>
-	<!-- Bootstrap JS -->
-	<script src="js/bootstrap.min.js"></script>
-	<!-- Respond JS for IE8 -->
-	<script src="js/respond.min.js"></script>
-	<!-- HTML5 Support for IE -->
-	<script src="js/html5shiv.js"></script>
-	<!-- Custom JS -->
-	<script src="js/custom.js"></script>
 
+
+		<script src="js/bootstrap.min.js"></script>
+
+		<!-- Javascript files -->
+		<!-- jQuery -->
+		<script src="js/jquery.js"></script>
+		<!-- Bootstrap JS -->
+		<script src="js/bootstrap.min.js"></script>
+		<!-- Respond JS for IE8 -->
+		<script src="js/respond.min.js"></script>
+		<!-- HTML5 Support for IE -->
+		<script src="js/html5shiv.js"></script>
+		<!-- Custom JS -->
+		<script src="js/custom.js"></script>
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Wruczek/Bootstrap-Cookie-Alert@gh-pages/cookiealert.css">
 
+
 <style>
 .btnstyle2{
-	height: 28px;
-	text-align: center;
-	background-color: #E3963E;
-	border-radius: 3px;
-	border: 2px solid gray;
+    height: 28px;
+    text-align: center;
+    background-color: #E3963E;
+    border-radius: 3px;
+    border: 2px solid gray;
 }
 
 a, a:link, a:visited, a:active {
-	text-decoration: none;
-	color: #E3963E;!important;
-	font-size: 16px;
+  	text-decoration: none;
+    color: #E3963E;!important;
+    font-size: 16px;
 }
 
 a:hover{
-text-decoration: none;
-color: #CC5500;
+	text-decoration: none;
+	color: #CC5500;
 }
 
 </style>
 
-</head>
-
+	</head>
 
 	<body>
 
+	<script>
+	jQuery(document).ready(function($){
+  var isLateralNavAnimating = false;
+
+  //open/close lateral navigation
+  $('.cd-nav-trigger').on('click', function(event){
+    event.preventDefault();
+    //stop if nav animation is running
+    if( !isLateralNavAnimating ) {
+      if($(this).parents('.csstransitions').length > 0 ) isLateralNavAnimating = true;
+
+      $('body').toggleClass('navigation-is-open');
+      $('.cd-navigation-wrapper').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend', function(){
+        //animation is over
+        isLateralNavAnimating = false;
+      });
+    }
+  });
+});
+	</script>
+
 		<div class="wrapper">
+			<div class="row" style="padding-top:26px; padding-bottom:20px;">
+			<div class="col-sm-4">
+			</div>
+			<div class="col-sm-8 fade-in-image">
+			<a href="index.html" target="_blank"><img class="aimg" style="float:right; margin-right:20px;" width= "65%" height="90%" src="img/observatorio_colorido.png" alt="Polos" /></a>
+			</div>
+			</div>
 
 			<!-- header -->
 			<header>
 				<!-- navigation -->
 
-				<nav class="navbar navbar-default navbar-static-top" role="navigation" style="background-color: white; padding-top:0px; border: white;">
-						<a href="https://ufmg.br/" target="_blank"><img class="aimg" style="float:right; margin-right:55px; padding-top: 30px" width= "10%" height="10%" src="img/ufmg.png" alt="Polos" /></a>
-						<a href="https://www.direito.ufmg.br/" target="_blank"><img class="aimg" style="float:right; margin-right:10px; padding-top: 30px" width= "3%" height="2.75%" src="img/faculdade_direito.png" alt="Polos" /></a>
-						<a href="https://polos.direito.ufmg.br/" target="_blank"><img class="aimg" style="float:right; margin-right:10px; padding-top: 30px" width= "4%" height="4%" src="img/polos_logo.png" alt="Polos" /></a>
-						<a href="index.html" target="_blank"><img class="aimg" style="float:left; margin-left: 35px; padding-top: 30px" width= "50%" height="50%" src="img/observatorio_colorido.png" alt="Polos" /></a>
-						 <div class="col-md-6">
-						</div>
+			<a href="#cd-nav" class="cd-nav-trigger">Menu
+				<span class="cd-nav-icon"></span>
 
-					<div class="container" style="background: transparent; margin-left: 5px; margin-right:5px;">
+				<svg x="0px" y="0px" width="54px" height="54px" viewBox="0 0 54 54">
+					<circle fill="transparent" stroke="#E3963E" stroke-width="1" cx="27" cy="27" r="25" stroke-dasharray="157 157" stroke-dashoffset="157"></circle>
+				</svg>
+			</a>
 
-						<div>
-							<!-- Smartphone/Tablet -->
-							<div class="mobile-container">
+			<div id="cd-nav" class="cd-nav">
+				<div class="row" style="padding-top:14px;">
+				<div class="col-sm-9">
 
-							<!-- Top Navigation Menu -->
-							<div class="topnav">
+				</div>
+				<div class="col-sm-3">
+					<a href="https://ufmg.br/" target="_blank"><img class="aaaimg" style="float:right; margin-right:10px; padding-top: 10px;" width= "40%" height="30%" src="img/logo_ufmg_200.png" alt="Polos" /></a>
 
-									<a class="navbar-brand" href="index.html" style="margin-top:-10px; margin-bottom: 10px;"><img class="aimg" id="logo" src="img/observatorio_preto_branco.png" height="40%" width="100%"></a>
+					<a href="https://www.direito.ufmg.br/" target="_blank"><img class="aaaimg" style="float:right; margin-right:5px; padding-top: 15px" width= "8.7%" height="6.3%" src="img/fd_transparent.png" alt="Polos" /></a>
 
-							  <div id="myLinks">
-									<ul class="nav navbar-nav navbar-right">
-											<li>
-											<li><a href="sobre_observatorio_brasileiro.html" style="font-size:13px; margin-top:45px;" target="_blank">SOBRE</a></li>
-											<li><a href="equipe.html" style="font-size:13px; margin-top:-10px;" target="_blank">EQUIPE</a></li>
-											<li><a href="#eixos" style="font-size:13px; margin-top:-10px;" >EIXOS</a></li>
-											<li><a href="#dados" style="font-size:13px; margin-top:-10px;" >DADOS</a></li>
-											<li class="dropdown">
-											<a href="#" class="dropdown-toggle" style="font-size:13px; margin-top:-10px;" data-toggle="dropdown">DOCUMENTOS <span class="caret"></span></a>
-									<ul class="dropdown-menu" role="menu">
-											<li><a href="boletins.html" target="_blank">Boletins</a></li>
-											<li><a href="https://polos.direito.ufmg.br/relatorios/" target="_blank">Notas Técnicas</a></li>
-											<li><a href="#">Livros</a></li>
-											<li><a href="#">Teses & Dissertações</a></li>
-											<li class="divider"></li>
-											<li><a href="#video">Vídeos</a></li>
-											<li><a href="#entrevistas">Entrevistas</a></li>
-									</ul>
-									</li>
-									</li>
-									</ul>
-							  </div>
-							  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-							    <i class="fa fa-bars " style="font-size:30px"></i>
-							  </a>
-							</div>
+					<a href="https://polos.direito.ufmg.br/" target="_blank"><img class="aaaimg" style="float:right; margin-right:10px; padding-top: 15px" width= "9%" height="7.7%" src="img/logo_polos2.png" alt="Polos" /></a>
+					</div>
+				</div>
+				</div>
+				<div class="cd-navigation-wrapper">
+					<div class="cd-half-block" style="width:45%;">
+						<nav>
+							<ul class="cd-primary-nav">
+								<li><a href="sobre_observatorio_brasileiro.html" style="color: #2F4F4F;" target="_blank">Sobre</a></li>
+								<li><a href="sobre_observatorio_brasileiro.html" class="hoverobpp" target="_blank">Sobre</a></li>
+								<li><a href="equipe.html" class="hoverobpp" target="_blank">Equipe</a></li>
+								<li><a href="index.html#eixos" class="hoverobpp" target="_blank">Eixos</a></li>
+								<li><a href="index.html#dados" class="hoverobpp" target="_blank">Dados</a></li>
+								<li><a href="metadados.html" class="hoverobpp" target="_blank">Metadados</a></li>
+								<li><a href="boletins.html" class="hoverobpp" target="_blank">Boletins</a></li>
+							</ul>
+						</nav>
+					</div>
 
-							<div style="padding-left:0px;">
-								<div class="container2-fluid" style="padding-left:0px; padding-right:0px;">
-								<div class="carousel2 slide" data-ride="carousel2" id="carousel2" >
-									<ol class="carousel2-indicators" style="color:transparent;">
-											<li data-target="#carousel2" data-slide to="0" class="active"></li>
-											<li data-target="#carousel2" data-slide to="1"></li>
-											<li data-target="#carousel2" data-slide to="2"></li>
-											<li data-target="#carousel2" data-slide to="3"></li>
-											<li data-target="#carousel2" data-slide to="4"></li>
-									</ol>
-									<div class="carousel2-inner" style="color=transparent;">
-											<div class="item active">
-													<img src="img/capa_observatorio5.jpeg">
-											</div>
-											<div class="item">
-													<img src="img/capa_observatorio4.jpeg">
-											</div>
-											<div class="item">
-													<img src="img/capa_observatorio2.jpeg">
-											</div>
-											<div class="item">
-													<img src="img/capa_observatorio3.jpeg">
-											</div>
-											<div class="item">
-													<img src="img/trabalho_renda2.jpeg">
-											</div>
-									</div>
-									<a class="carousel2-control left" href="#carousel2" data-slide="prev">
-											<span class="glyphicon glyphicon-chevron-left" style="color:white;"></span>
-									</a>
-									<a class="carousel2-control right" href="#carousel2" data-slide="next">
-											<span class="glyphicon glyphicon-chevron-right" style="color:white;"></span>
-									</a>
+					<div class="cd-half-block" style="width:55%;">
+						<nav>
+							<ul class="cd-primary-nav">
+								<li><a href="biblioteca.html#notas" class="hoverobpp" target="_blank">Notas Técnicas</a></li>
+								<li><a href="biblioteca.html#livros" class="hoverobpp" target="_blank">Livros</a></li>
+								<li><a href="biblioteca.html#teses_dissertacoes" class="hoverobpp" target="_blank">Teses & Dissertações</a></li>
+								<li><a href="index.html#video" class="hoverobpp" target="_blank">Vídeos</a></li>
+								<li><a href="index.html#entrevistas" class="hoverobpp" target="_blank">Entrevistas</a></li>
 
-									<div class="carousel2-caption">
-									</div>
-								</div>
-								</div>
-							</div>
+							</ul>
+						</nav>
+					</div>
 
-							<!-- End smartphone / tablet look -->
-							</div>
+				</div> <!-- .cd-navigation-wrapper -->
+			</div>
 
-						</div>
-										<!-- Brand and toggle get grouped for better mobile display -->
-										<div class="navbar-header" style="background: white; width:100%;">
-																<!-- Collect the nav links, forms, and other content for toggling -->
-												<div>
-												<ul class="nav navbar-nav navbar-right">
-												<li><a href="sobre_observatorio_brasileiro.html" target="_blank">Sobre</a></li>
-												<li><a href="equipe.html" target="_blank">Equipe</a></li>
-												<li><a href="index.html#eixos">Eixos</a></li>
-												<li><a href="index.html#dados">Dados</a></li>
-												<li class="dropdown">
-												<a href="#" class="dropdown-toggle" data-toggle="dropdown">Documentos <span class="caret"></span></a>
-												<ul class="dropdown-menu" role="menu">
-												<li><a href="#">Boletins</a></li>
-												<li><a href="https://polos.direito.ufmg.br/relatorios/" target="_blank">Notas Técnicas</a></li>
-												<li><a href="#">Livros</a></li>
-												<li><a href="#">Teses & Dissertações</a></li>
-												<li class="divider"></li>
-												<li><a href="index.html#video">Vídeos</a></li>
-												<li><a href="index.html#entrevistas">Entrevistas</a></li>
-												</ul>
-												</li>
-												</ul>
-												</div>
+</nav>
 
-										</div>
-										</div>
-									</nav>
-</header>
+	</header>
 
 			<!-- equipe -->
 			<div class="equipe" id="privacidade_protecao" style="background-color:#ececec;">
