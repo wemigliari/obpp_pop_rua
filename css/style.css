@@ -1403,6 +1403,13 @@ footer .copy-right {
 
  }
 
+ @media (min-width: 1280px) {
+
+   h2 {
+     margin-left: 100px;
+     margin-right: 100px;
+   }
+ }
 
  @media (min-width: 1366px) {
 
